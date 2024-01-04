@@ -1,14 +1,9 @@
-# Hardware Project Template
+# Lowracer Project
 
-General template repository for our hardware projects, especially one-off and self-contained projects like custom test equipment. This template assumes that the hardware is being designed in KiCad.
+This was a project run in the 2020-21 academic year to build a lowracer for ASME based on the work done for Zephyr (2018-19) and Blueshift (2019-20). However due to the COVID-19 pandemic running *(much)* longer than expected the lowracer's construction made no meaningful progress during the year due to lockdowns and was ultimately cancelled to focus on the aircraft project that was being started in 2021.
 
-## Organization
+The boards were designed, ordered, and assembled. However no code was prepared since the project was cancelled shortly after the boards were assembled.
 
-Pretty self-explanitory, put hardware related files into the `hardware` folder, firmware in the `firmware` folder. Other folders can be added as needed: for example a `media` folder is handy for storing pictures related to a project which can be used in documentation.
+## Software Used
 
-## Conventions
-
-Partly for consistency, partly for functionality; please follow the following conventions:
-
-- Try to keep folder names to single words and all lowercase
-- Use underscores to separate words in names (e.g. `board_rev1`). **DO NOT USE SPACES! ESPECIALLY FOR FOLDERS CONTAINING CODE!** Spaces in file paths may cause issues in compilers and such so best to avoid them entirely.
+The board designs were originally done in KiCad 5, but have been ported forward to 7.0.10. **This was the team's first project to use KiCad over EAGLE!**

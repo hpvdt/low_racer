@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "low_racer_parts")(type "Legacy")(uri "${KIPRJMOD}/low_racer_parts.lib")(options "")(descr ""))
+  (lib (name "low_racer-rescue")(type "KiCad")(uri "${KIPRJMOD}/low_racer-rescue.kicad_sym")(options "")(descr ""))
+)

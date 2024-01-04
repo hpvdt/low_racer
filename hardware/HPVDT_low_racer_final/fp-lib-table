@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name low_racer_parts)(type KiCad)(uri ${KIPRJMOD}/low_racer_parts.pretty)(options "")(descr ""))
+)
